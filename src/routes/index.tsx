@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "The jomisfoods.com domain registration has expired. Renew to continue. Contact your agent at info@grandcafeproductions.com.",
+          "The jomisfoods.com hosting has expired. Renew to continue. Contact your agent at info@grandcafeproductions.com.",
       },
       { property: "og:title", content: "Jomis Foods — Website Expired" },
       {
