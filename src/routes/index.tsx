@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "The jomisfoods.com domain registration has expired. Renew to continue. Contact your agent at info@grandcafeproductions.com.",
+          "The jomisfoods.com hosting has expired. Renew to continue. Contact your agent at info@grandcafeproductions.com.",
       },
       { property: "og:title", content: "Jomis Foods — Website Expired" },
       {
@@ -59,7 +59,7 @@ function ExpiredNotice() {
 
             <span className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary-foreground">
               <RefreshCw className="h-3.5 w-3.5" aria-hidden />
-              Domain expired
+              Hosting expired
             </span>
 
             <h1 className="mt-4 text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
@@ -67,8 +67,8 @@ function ExpiredNotice() {
             </h1>
 
             <p className="mx-auto mt-3 max-w-md text-base text-muted-foreground">
-              This website is temporarily offline because its domain
-              registration has expired. Renew the domain to continue.
+              This website is temporarily offline because its hosting has
+              expired. Renew the hosting to continue.
             </p>
 
             <div className="mt-8 rounded-2xl border border-dashed border-primary/30 bg-secondary px-6 py-5">
